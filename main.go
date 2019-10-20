@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/buildkite/golang-docker-example/logger"
+	"github.com/ypwu1/golang-docker-example/logger"
 )
 
 func main() {

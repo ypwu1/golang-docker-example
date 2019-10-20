@@ -1,8 +1,8 @@
 app:
   build: .
-  volumes:
-    - ./:/go/src/github.com/buildkite/golang-docker-example
-    - /usr/bin/buildkite-agent:/usr/bin/buildkite-agent
+  # volumes:
+    # - ./:/go/src/github.com/buildkite/golang-docker-example
+    # - /usr/bin/buildkite-agent:/usr/bin/buildkite-agent
   environment:
     - BUILDKITE_AGENT_ACCESS_TOKEN
     - BUILDKITE_JOB_ID
