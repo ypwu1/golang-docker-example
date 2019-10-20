@@ -1,0 +1,10 @@
+.buildkite
+.git
+.idea
+.gitignore
+docker-compose.yml
+Dockerfile
+Licence.md
+Readme.md
+renovate.json
+.dockerignore
